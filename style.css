@@ -166,3 +166,85 @@ footer{
     width: 50px;
     height: 50px;
 }
+@media screen and (max-width:576px) {
+    .top-nav, 
+    .top-nav ul, 
+    .banner,
+    .about-container,
+    .media-continar,
+    .e-e-container,
+    .last-continer{
+      flex-direction: column;
+    }
+    .top-nav{
+        justify-content: flex-start;
+        padding: 5px 10px;
+    }
+    .top-nav ul li{
+        margin-bottom: 10px;
+    }
+    .banner, .about-container, .media-continar, .e-e-container, .last-continer {
+        margin: 5px 10px;
+        padding: 0;
+    }
+    .banner img, .my-experiance{
+        max-width: 100%;
+    }
+    main{
+        max-width: 80%;
+    }
+    header{
+        height: 100%;
+    }
+    .about{
+        padding: 0;
+        margin-top: 100px;
+    }
+    .about-info{
+        padding-top: 10px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px){
+    .top-nav, 
+    .top-nav ul, 
+    .banner,
+    .about-container,
+    .e-e-container,
+    .last-continer{
+        flex-direction: column;
+    }
+    .top-nav{
+        justify-content: flex-start;
+        padding: 5px 10px;
+    }
+    .top-nav ul li{
+        margin-bottom: 10px;
+    }
+    .banner, .about-container, .media-continar, .e-e-container, .last-continer {
+        margin: 5px 10px;
+        padding: 0;
+    }
+    .banner img{
+        max-width: 100%;
+    }
+    header{
+        height: 100%;
+    }
+    main{
+        max-width: 80%;
+    }
+    .about{
+        padding: 0;
+        margin-top: 100px;
+    }
+    .about-info{
+        padding-top: 10px;
+    }
+    footer {
+        max-width: 80%;
+        margin: 40px auto;
+    }
+    
+   
+    
+}
